@@ -1,9 +1,59 @@
 h1 {
     color:black;
-    font: comic-sans;
+    font: SANS-SERIFF;
     font-size: 100px;
 }
 
 body {
     background-color:antiquewhite;
+}
+
+#header {
+    width:100%;
+    background-color: aqua;
+}
+
+header > h1 {
+    
+    margin:0;
+}
+
+#nav {
+    width:100%;
+    background-color: azure;
+}
+
+.menu {
+    display:flex;
+    background:aliceblue;    background: aliceblue;
+    justify-content: space-around;
+    list-style-type: none;
+    margin:0;
+}
+
+#middle-wrapper {
+    
+    display:flex;
+}
+
+
+#main-content-wrapper {
+    background-color:green;
+    width:80%;
+}
+
+#aside-content-wrapper {
+    background-color: coral;
+    width:20%;
+}
+
+
+footer {
+    
+    background-color:aquamarine;
+    margin:0;
+}
+
+footer > h1 {
+    margin:0;
 }
